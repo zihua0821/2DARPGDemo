@@ -101,3 +101,6 @@ func _on_Hurtbox_invincibility_started():
 
 func _on_Hurtbox_invincibility_ended():
 		blinkAnimationPlayer.play("stop")
+
+func set_player_name(new_name):
+	get_node("Label").set_text(new_name)

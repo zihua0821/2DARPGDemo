@@ -55,12 +55,14 @@ margin_left = 16.0
 margin_top = 24.0
 margin_right = 128.0
 margin_bottom = 48.0
+text = "1"
 
 [node name="IPAddress" type="LineEdit" parent="Connect"]
 margin_left = 16.0
 margin_top = 88.0
 margin_right = 128.0
 margin_bottom = 112.0
+text = "192.168.31.32"
 
 [node name="Host" type="Button" parent="Connect"]
 margin_left = 136.0

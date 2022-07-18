@@ -826,6 +826,13 @@ tracks/0/keys = {
 collision_layer = 2
 script = ExtResource( 2 )
 
+[node name="Label" type="Label" parent="."]
+margin_left = -16.0
+margin_top = -33.0
+margin_right = 24.0
+margin_bottom = -19.0
+text = "name"
+
 [node name="ShadowSprite" type="Sprite" parent="."]
 position = Vector2( 0, 3 )
 texture = ExtResource( 6 )

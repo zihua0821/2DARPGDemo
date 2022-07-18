@@ -56,7 +56,7 @@ func _on_Join_pressed():
 
 
 func _on_Start_pressed():
-	pass # Replace with function body.
+	Gamestate.begin_game()
 
 func refresh_lobby():
 	var players = Gamestate.get_player_list()
